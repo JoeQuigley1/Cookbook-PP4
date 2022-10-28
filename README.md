@@ -1,3 +1,25 @@
+CookBook 
+
+Cookbook is a site where you can post, comment and like recipes. This is a blog intended to be used by the general public from complete beginners to anyone with a passion for cooking. 
+
+
+## UX
+
+### Site Purpose: 
+- The idea behind Cookbook was to create a space where people who are interested in cooking and sharing ideas could come together. The blog gives people the opportunity to share an image of their recipe and give a description of how it is prepared. It also gives interested users an opportunity to comment and like on posts which allows users the opportunity to interact and feel a sense of community. 
+
+### Site Goal:
+
+### Audience:
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome JoeQuigley1,
