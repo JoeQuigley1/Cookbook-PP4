@@ -50,9 +50,20 @@
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-muted">
+                <ul class="navbar justify-content-end navbar-nav">
+                    {% if request.user.is_superuser %}
+                    <li class="nav-item">
+                        <a href="{% url 'admin:index' %}">Admin Panel</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a href="{% url 'contact' %}">Contact Us</a>
+                    </li>
+                    {% endif %}
+                </ul>
+                <!-- <span class="navbar-text text-muted">
                     adventures of a software developer
-                </span>
+                </span> -->
             </div>
         </div>
     </nav>
