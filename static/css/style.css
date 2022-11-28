@@ -143,16 +143,15 @@ body {
 
 /* About Page */
 
-/* .about-page {
+.about-page {
+    margin: 0 auto;
 }
 
 .about-image {
-    height: 600px;
-    width: 50%;
-    display: block;
-    
+     width: 100%;
+     min-height: auto;
 }
 
 .about-image img {
     text-align: center;
-} */
+}

@@ -4,15 +4,40 @@
 
 {% load static %}
 
-<div class="">
-    <div class="row">
-        <div class="col-md-8">
-            <img src="{% static 'images/cookbook-img.jpg' %}" alt="image of a cookbook ">
+<div class="container">
+    <div class="about">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="about-image">
+                     <img class="img-fluid" src="{% static 'images/cookbook.jpg' %}" alt="image of a cookbook ">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="about content" >
+                    <p>
+                        LoremipsumLOremsLoremipsumLOrems
+                        LoremipsumLOremsLoremipsumLOrems
+                        LoremipsumLOremsLoremipsumLOremsL
+                        LoremipsumLOremsLoremipsumLOrems
+                        LoremipsumLOremsLoremipsumLOrems
+                        LoremipsumLOremsLoremipsumLOrems
+                        LoremipsumLOremsLoremipsumLOrems
+                        LoremipsumLOremsLoremipsumLOrems
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <h2>
-                Thank you for clicking
-            </h2>
+    </div>
+</div>
+
+
+<!-- <div class="col-12 about-page">
+    <div class="row">
+        <div class="col-sm-2 about-image">
+           
+        </div>
+        <div class="col">
+            
             <p>
                 LoremipsumLOremsLoremipsumLOremsLoremipsumLOremsLoremipsumLOrems
                 LoremipsumLOremsLoremipsumLOrems
@@ -23,6 +48,6 @@
     </div>
 
 
-</div>
+</div> -->
 
 {% endblock content %}
