@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Post, Recipe
 from .forms import CommentForm
 
 
@@ -10,12 +10,12 @@ def about_page(request):
     return render(request, 'about.html')
     
 
-# class AddPostView(View):
-#     model = Post
+# class AddPostView(generic.ListView):
+#     model = Recipe
 #     template_name = 'add_recipe.html'
     
 #     def get(self, request, slug, *args, **kwargs):
-#         queryset = Post.objects.filter(status=1)
+#         queryset = Recipe.objects.filter(status=1)
 #         post = get_object_or_404(queryset, slug=slug)
 
 
