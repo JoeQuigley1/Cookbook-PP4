@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="container">
+    <div class="about">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="about-image">
+                     <img class="img-fluid" src="{% static 'images/cookbook.jpg' %}" alt="image of a cookbook ">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="about content" >
+                    <h2>
+                        HomePAGE
+                    </h2>
+                    <p>The cookbook is an online platform where you can comment on and like posts</p>
+                    <p>
+                        There are some basic rules:
+                    </p>
+                    <p>Be <strong>kind</strong></p>
+                    <p>Give constructive feedback</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
