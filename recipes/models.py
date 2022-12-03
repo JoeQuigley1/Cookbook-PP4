@@ -6,7 +6,7 @@ from cloudinary.models import CloudinaryField
 STATUS = ((0, "Draft"), (1, "Published"))
 
 
-class SubmitRecipe(models.Model):
+class Recipe(models.Model):
     recipe_name = models.CharField(
         max_length=50, unique=True, null=False, blank=False)
     slug = models.SlugField(

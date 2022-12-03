@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import SubmitRecipe
+from .models import Recipe
 # Register your models here.
 
 
-@admin.register(SubmitRecipe)
+@admin.register(Recipe)
 class RecipeAdmin(admin.ModelAdmin):
 
     list_display = ('recipe_name', 'cook', 'status', 'created_on')
